@@ -43,24 +43,19 @@ printf("\n\t\t\tdelay");
 printf("\n");
 for(i=1;i<=n;i++)
 {
-sum=0;
-k=1;
+sum=0; k=1;
 for(j=1;j<=nb;j++)
 {
 temp[k++]=delay[j][i];
 }
-
 sum=temp[1]+snbs[1];
 for(y=2;y<=nb;y++)
 {
 if(sum>temp[y]+snbs[y])
 {
-
-sum=temp[y]+snbs[y];
-store=y;
+sum=temp[y]+snbs[y]; store=y;
 }
 }
-
 if(s==i)
 printf("\n\t%d+\t%d =\t%d --",ze,ze,ze);
 else
