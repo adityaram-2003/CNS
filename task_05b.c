@@ -5,7 +5,8 @@ int main()
 {
     char plain[100] = "conrodlemar";
     printf("Before stuffing: %s\n", plain);
-    char start[100] = "dlestx", esc[100] = "dle", end[100] = "dleetx";
+    char start[100] = "dlestx", esc[100] = "dle", 
+    end[100] = "dleetx";
     int pl = strlen(plain), el = strlen(esc);
     int i = 0, j = 0;
     char copy[100] = {0};
